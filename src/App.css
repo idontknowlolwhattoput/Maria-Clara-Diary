@@ -43,7 +43,7 @@ html {
 }
 
 .page {
-    position: relative; /* Important for absolute positioning of children */
+    position: relative;
     background: url('./assets/page.png') no-repeat center;
     background-size: contain;
     padding: 20px;
@@ -60,6 +60,39 @@ html {
     padding: 20px;
     text-align: left;
     color: #000;
+}
+
+.page-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    text-align: left;
+    color: #000;
+}
+
+.title-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.title-header {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.title-page-content p {
+    font-size: 20px;
+    line-height: 28px;
 }
 
 .preface-header,
@@ -103,6 +136,19 @@ html {
     font-size: 16px;
 }
 
+.page-content h3 {
+    font-size: 27px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.page-content p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 40px;
+    margin-bottom: 12px;
+}
+
 .page-number {
     padding: 20px;
     position: absolute;
@@ -118,19 +164,6 @@ html {
 
 .right-page .page-number {
     right: 15px;
-}
-
-.page-content h3 {
-    font-size: 27px;
-    font-style: italic;
-    margin-bottom: 15px;
-}
-
-.page-content p {
-    font-size: 20px;
-    line-height: 25px;
-    margin-left: 40px;
-    margin-bottom: 12px;
 }
 
 .contributions-text {

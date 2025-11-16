@@ -17,6 +17,19 @@ function Book() {
                 <div className="page-content front-cover-page"></div>
             </div>
 
+            {/* PAGE */}
+            <div className="page">
+                <div className="page-content "></div>
+            </div>
+
+            {/* TITLE PAGE */}
+            <div className="page">
+                <div className="title-page-content">
+                    <h1 className="title-header">DIARY OF <br/> MARIA CLARA</h1>
+                    <p>Reflections, Fears, and Longings of a <br/> Noli Me Tángere Heroine</p>
+                </div>
+            </div>
+
             {/* PREFACE */}
             <div className="page">
                 <h1 className="preface-header">PREFACE</h1>
