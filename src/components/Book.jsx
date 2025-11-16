@@ -2,7 +2,6 @@ import React from 'react';
 import HTMLFlipBook from "react-pageflip";
 
 function Book() {
-
     return (
         <HTMLFlipBook
             width={500}
@@ -13,7 +12,7 @@ function Book() {
             size="fixed"
         >
             {/* FRONT COVER PAGE */}
-            <div className="cover" style={{background: 'transparent'}}>
+            <div className="cover" style={{ background: 'transparent' }}>
                 <div className="page-content front-cover-page"></div>
             </div>
 
@@ -25,15 +24,14 @@ function Book() {
             {/* TITLE PAGE */}
             <div className="page">
                 <div className="title-page-content">
-                    <h1 className="title-header">DIARY OF <br/> MARIA CLARA</h1>
-                    <p>Reflections, Fears, and Longings of a <br/> Noli Me Tángere Heroine</p>
+                    <h1 className="title-header">DIARY OF <br /> MARIA CLARA</h1>
+                    <p>Reflections, Fears, and Longings of a <br /> Noli Me Tángere Heroine</p>
                 </div>
             </div>
 
             {/* PREFACE */}
             <div className="page">
                 <h1 className="preface-header">PREFACE</h1>
-
                 <div className="page-content preface-text">
                     This book is dedicated to the readers who wish to step into the heart of Maria Clara, a character
                     immortalized by José Rizal. Through these pages, we hope to capture her inner thoughts, hopes, and
@@ -46,47 +44,64 @@ function Book() {
             <div className="page">
                 <h1 className="toc-header">TABLE OF CONTENTS</h1>
                 <div className="page-content toc">
+
                     <div className="toc-section">
                         <div className="toc-title">Reflections on Ibarra</div>
                         <div className="toc-entry">
-                            <span className="toc-text">2 de noviembre de 1881......................................................1</span>
+                            <span className="toc-text">
+                                2 de noviembre de 1881......................................................1
+                            </span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Shock and Sorrow</div>
                         <div className="toc-entry">
-                            <span className="toc-text">13 de noviembre de 1881....................................................3</span>
+                            <span className="toc-text">
+                                13 de noviembre de 1881....................................................3
+                            </span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Fear and Despair</div>
                         <div className="toc-entry">
-                            <span className="toc-text">20 de noviembre de 1881....................................................5</span>
+                            <span className="toc-text">
+                                20 de noviembre de 1881....................................................5
+                            </span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">25 de noviembre de 1881....................................................6</span>
+                            <span className="toc-text">
+                                25 de noviembre de 1881....................................................6
+                            </span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Moment of Truth</div>
                         <div className="toc-entry">
-                            <span className="toc-text">28 de noviembre de 1881....................................................7</span>
+                            <span className="toc-text">
+                                28 de noviembre de 1881....................................................7
+                            </span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Convent Life</div>
                         <div className="toc-entry">
-                            <span className="toc-text">1 de diciembre de 1881.......................................................9</span>
+                            <span className="toc-text">
+                                1 de diciembre de 1881.......................................................9
+                            </span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">2 de diciembre de 1881.....................................................10</span>
+                            <span className="toc-text">
+                                2 de diciembre de 1881.....................................................10
+                            </span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">23 de diciembre de 1881...................................................12</span>
+                            <span className="toc-text">
+                                23 de diciembre de 1881...................................................12
+                            </span>
                         </div>
                     </div>
 
@@ -96,8 +111,7 @@ function Book() {
                             <span className="toc-text">Author’s Notes..................................................................14</span>
                         </div>
                         <div className="toc-entry">
-                            <span
-                                className="toc-text">Contributions.....................................................................15</span>
+                            <span className="toc-text">Contributions.....................................................................15</span>
                         </div>
                     </div>
                 </div>
@@ -160,15 +174,14 @@ function Book() {
                 <div className="page-content">
                     <p className="entry-text">
                         Nais kong payapain ang kalungkutan at maging kanyang kanlungan. Sana’y maramdaman niya na
-                        nandito ako palagi para sa kanya. <br/><br/>
+                        nandito ako palagi para sa kanya. <br /><br />
                         O, kay lupit ng tadhana ng ipinaako kay Crisostomo, Ang bawat
                         patak ng kanyang luha ay tila kirot na dumarampi sa aking puso. Nais kong yakapin siya at
                         sabihing hindi siya nag iisa, na sa kabila ng lahat, may isang pusong tapat na umaalalay sa
                         kanya. Sa bawat pag-ikot ng araw, ipinagdarasal ko na sana’y matagpuan niya ang kapayapaan na
-                        ninakaw sa kanya ng mundo.At sa katahimikan ng gabi, ako’y lumuluhod at taimtim na nananalangin
+                        ninakaw sa kanya ng mundo. At sa katahimikan ng gabi, ako’y lumuluhod at taimtim na nananalangin
                         na sana, sa paglipas ng panahon, muling maghilom ang kanyang sugatang puso, at ang alaala ng
                         kanyang ama ay maging gabay sa liwanag ng kanyang bukas.
-
                     </p>
                 </div>
                 <div className="page-number">4</div>
@@ -185,7 +198,6 @@ function Book() {
                         niya napatay si Padre Damaso, ngunit tila ako ang hinatulang mamatay sa bawat araw na dumaraan.
                         Simula noon, ang tahanan namin ay nabalot ng katahimikan at ako ay nilamon ng sakit na hindi
                         kayang gamutin ng kahit sino.
-
                     </p>
                 </div>
                 <div className="page-number">5</div>
@@ -207,7 +219,7 @@ function Book() {
                 <div className="page-number">6</div>
             </div>
 
-            {/* PAGE 7 */}
+            {/* PAGE 7 (duplicate entry?) */}
             <div className="page left-page">
                 <div className="page-content">
                     <h3 className="entry-date">25 de noviembre de 1881</h3>
@@ -227,9 +239,7 @@ function Book() {
             <div className="page right-page">
                 <div className="page-content">
                     <h3 className="entry-date"></h3>
-                    <p className="entry-text">
-
-                    </p>
+                    <p className="entry-text"></p>
                 </div>
                 <div className="page-number">8</div>
             </div>
@@ -239,13 +249,12 @@ function Book() {
                 <div className="page-content">
                     <p className="entry-text">
                         Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang may bahid ang
-                        dugong dumadaloy sa aking mga ugat at kasama nito ang pagkawala ng aking pagkatao. <br/> <br/>
+                        dugong dumadaloy sa aking mga ugat at kasama nito ang pagkawala ng aking pagkatao. <br /> <br />
                         Ako, anak ng kasalanan. Ano pa ang saysay ng pamumuhay kung ang aking pag-iral ay bunga ng isang
                         paglapastangan? Mas mabuti pa sigurong mawala ako sa mundong ito kaysa magdusa sa kahihiyang
                         ito. Hangad ko ang kapayapaan, ngunit napakalayo ng langit sa aking mga panalangin. Humihingi
                         ako ng tawad sa Panginoon, ngunit paano ko patatawarin ang aking sarili kung pasan ko ang
                         kasalanan ng aking ama at ang sakit na pinasan ng aking ina?
-
                     </p>
                 </div>
                 <div className="page-number">9</div>
@@ -306,7 +315,7 @@ function Book() {
                         humuhusga at sa mga bulungang nagbabalatkayo. Akala ko’y sa loob ng mga pader na ito,
                         makakalimutan ko si Ibarra. Akala ko’y, ang dasal ay gamot sa lahat ng sugat. Ngunit ngayong
                         gabi, habang hawak ko ang rosaryo, tanging ngalan pa rin niya ang sumasabay sa bawat dasal
-                        ko. <br/> <br/>
+                        ko. <br /> <br />
                         Sinasabi nilang dito ko mararamdaman ang Diyos, ngunit bakit tila napakalayo niya. Minsan ako’y
                         napapaisip, baka nga hindi siya ang lumayo kundi ako. Baka ako na ang tumigil maniwala. At sa
                         bawat sandaling ito, habang ako’y nakaluhod sa harap ng altar, ramdam kong unti-unting lumulubog
@@ -331,7 +340,7 @@ function Book() {
                 <div className="page-number">14</div>
             </div>
 
-            {/* AUTHOR'S NOTES */}
+            {/* AUTHORS NOTES */}
             <div className="page left-page">
                 <h1 className="notes-header">AUTHOR'S NOTES</h1>
                 <div className="page-content notes-text">
@@ -343,30 +352,30 @@ function Book() {
                 <div className="page-number">15</div>
             </div>
 
-            {/* CONTRIBUTIONS PAGE */}
+            {/* CONTRIBUTIONS */}
             <div className="page right-page">
                 <h1 className="contributions-header">CONTRIBUTIONS</h1>
                 <div className="contributions-text">
                     <div className="section-title">Diary Entries:</div>
                     <p>
-                        Ramirez, John Gabriel S.<br/>
-                        Rebadulla, Lance Patrick A.<br/>
-                        Roces, Raiza A.<br/>
-                        Salva, Alvin A.<br/>
-                        Santiago, John Francis Ephraim A.<br/>
-                        Soriano, James Carl E.<br/>
-                        Valdez, John Paul A.<br/>
-                        Valiente, Aaron Mark D.<br/>
-                        Vallejos, Glaiza C.<br/>
-                        Valmores, Jomari Roderick B.<br/>
+                        Ramirez, John Gabriel S.<br />
+                        Rebadulla, Lance Patrick A.<br />
+                        Roces, Raiza A.<br />
+                        Salva, Alvin A.<br />
+                        Santiago, John Francis Ephraim A.<br />
+                        Soriano, James Carl E.<br />
+                        Valdez, John Paul A.<br />
+                        Valiente, Aaron Mark D.<br />
+                        Vallejos, Glaiza C.<br />
+                        Valmores, Jomari Roderick B.<br />
                         Vergara, Joshua Miguel M.
                     </p>
 
-                    <br/>
+                    <br />
 
                     <div className="section-title">Diary Production:</div>
                     <p>
-                        Salayo, Heaven Grace D.<br/>
+                        Salayo, Heaven Grace D.<br />
                         Zamora, Princess Jumiah M.
                     </p>
                 </div>
@@ -374,9 +383,10 @@ function Book() {
             </div>
 
             {/* BACK COVER PAGE */}
-            <div className="cover" style={{background: 'transparent'}}>
+            <div className="cover" style={{ background: 'transparent' }}>
                 <div className="page-content back-cover-page"></div>
             </div>
+
         </HTMLFlipBook>
     );
 }
