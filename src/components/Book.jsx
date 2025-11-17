@@ -96,7 +96,7 @@ function Book() {
             <div className="page left-page">    
                 <div className="page-content">
                     <h3 className="entry-date">2 de noviembre de 1881</h3>
-                    <p className="entry-text">
+                    <p className="entry-text text-s">
                         Ngayong gabi ay hindi ko mapigilang balikan ang mga sandaling nagdaan mula nang dumating si
                         Crisostomo galing sa Europa. Pitong taon akong naghintay at pinanghahawakan ang bawat salita sa
                         kanyang liham na iniwan, at ngayon ay parang nananaginip ako dahil narito na siyang muli sa
@@ -111,6 +111,7 @@ function Book() {
                 <div className="page-number">1</div>
             </div>
 
+            
             {/* PAGE 2 */}
             <div className="page right-page">
                 <div className="page-content">
@@ -323,7 +324,7 @@ function Book() {
             {/* AUTHOR'S NOTES */}
             <div className="page left-page">
                 <h1 className="notes-header">AUTHOR'S NOTES</h1>
-                <div className="page-content notes-text">
+                <div className="page-content notes-text ">
                     This diary of Maria Clara is a creative reconstruction inspired by José Rizal’s Noli Me Tángere.
                     While the events and timeline follow the novel, the diary format, reflections, and dates are
                     imagined to bring readers closer to her inner life. This project could not have been completed

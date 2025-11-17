@@ -132,13 +132,13 @@ html {
 }
 
 .toc-title {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     font-style: italic;
 }
 
 .toc-text {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .page-content h3 {
@@ -148,7 +148,7 @@ html {
 }
 
 .page-content p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 25px;
     margin-left: 40px;
     margin-bottom: 12px;
@@ -190,4 +190,9 @@ html {
     background-size: contain;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.entry-text {
+
+    font-size: 8px
 }
