@@ -274,7 +274,7 @@ function Book() {
                 <div className="page-content">
                     <h3 className="entry-date">23 de diciembre de 1881</h3>
                     <p className="entry-text">
-                        Hindi ko ubos maunawaan kung bakit ako’y nagsusulat ngayon. Marahil gusto ko lamang marinig muli
+                        Hindi ko lubos maunawaan kung bakit ako’y nagsusulat ngayon. Marahil gusto ko lamang marinig muli
                         ang sarili kong tinig at boses kahit sa tinta at papel na lamang. Tahimik na naman ang kumbento
                         na tila’y pati ang hangin ay takot gumalaw. Sa bawat pintig ng puso ko’y may bigat na hindi ko
                         mabitawan, marahil dahil wala na akong ibang mapagsabihan ng aking mga takot kundi ang mga
