@@ -49,62 +49,51 @@ function Book() {
                     <div className="toc-section">
                         <div className="toc-title">Reflections on Ibarra</div>
                         <div className="toc-entry">
-                            <span className="toc-text">2 de noviembre de 1881......................................................1</span>
+                            <span className="toc-text">2 de noviembre de 1881.............................................1</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Shock and Sorrow</div>
                         <div className="toc-entry">
-                            <span className="toc-text">13 de noviembre de 1881....................................................3</span>
+                            <span className="toc-text">13 de noviembre de 1881...........................................3</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Fear and Despair</div>
                         <div className="toc-entry">
-                            <span className="toc-text">20 de noviembre de 1881....................................................5</span>
+                            <span className="toc-text">20 de noviembre de 1881..........................................5</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">25 de noviembre de 1881....................................................6</span>
+                            <span className="toc-text">25 de noviembre de 1881..........................................6</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Moment of Truth</div>
                         <div className="toc-entry">
-                            <span className="toc-text">28 de noviembre de 1881....................................................7</span>
+                            <span className="toc-text">28 de noviembre de 1881..........................................7</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Convent Life</div>
                         <div className="toc-entry">
-                            <span className="toc-text">1 de diciembre de 1881.......................................................9</span>
+                            <span className="toc-text">1 de diciembre de 1881.............................................9</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">2 de diciembre de 1881.....................................................10</span>
+                            <span className="toc-text">2 de diciembre de 1881............................................10</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">23 de diciembre de 1881...................................................12</span>
-                        </div>
-                    </div>
-
-                    <div className="toc-section">
-                        <div className="toc-title">Back Matter</div>
-                        <div className="toc-entry">
-                            <span className="toc-text">Author’s Notes..................................................................14</span>
-                        </div>
-                        <div className="toc-entry">
-                            <span
-                                className="toc-text">Contributions.....................................................................15</span>
+                            <span className="toc-text">23 de diciembre de 1881..........................................12</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* PAGE 1 */}
-            <div className="page left-page">
+            <div className="page left-page">    
                 <div className="page-content">
                     <h3 className="entry-date">2 de noviembre de 1881</h3>
                     <p className="entry-text">

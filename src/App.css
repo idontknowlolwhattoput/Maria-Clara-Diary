@@ -46,7 +46,7 @@ html {
     position: relative;
     background: url('./assets/page.png') no-repeat center;
     background-size: contain;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -57,13 +57,13 @@ html {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 20px;
+    padding: 20px 70px 20px 12px;
     text-align: left;
     color: #000;
 }
 
 .entry-date{
-    margin-left: 90px;
+    margin-left: 65px;
 }
 .page-content {
     width: 100%;
@@ -71,7 +71,7 @@ html {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 20px;
+    padding: 20px 40px 20px 12px;
     text-align: left;
     color: #000;
 }
@@ -121,9 +121,11 @@ html {
 }
 
 .toc {
-    padding: 0 40px;
+    padding-left: 50px;
     font-family: 'Cormorant Garamond', serif;
 }
+
+
 
 .toc-section {
     margin-bottom: 10px;
