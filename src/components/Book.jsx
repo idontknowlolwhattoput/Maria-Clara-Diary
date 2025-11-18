@@ -211,7 +211,7 @@ function Book() {
             <div className="page left-page">
                 <div className="page-content">
                     <h3 className="entry-date">28 de noviembre de 1881</h3>
-                    <p className="entry-text">
+                    <p className="entry-text-2">
                         Sa bawat araw na nagdaan, umaasa ako na siya’y babalik. Ni anino man lang niya ay hindi ko
                         nakita, o kahit man lang sana bumulong siya sa hangin upang maramdaman ko na ako’y iniisip
                         pa
@@ -234,7 +234,7 @@ function Book() {
             {/* PAGE 8 */}
             <div className="page right-page">
                 <div className="page-content">
-                    <p className="entry-text">
+                    <p className="entry-text-2">
                         -isang espirituwal na gabay ay siya palang aking ama. Si Padre Damaso. Paanong ang isang pari…isang lingkod ng Diyos ay makagagawa ng gayong kasalanan at dungisan ang dangal ng aking ina?
                         <br/>
                         <br/>
@@ -282,7 +282,7 @@ function Book() {
             <div className="page left-page">
                 <div className="page-content">
                     <h3 className="entry-date">23 de diciembre de 1881</h3>
-                    <p className="entry-text">
+                    <p className="entry-text-2">
                         Hindi ko ubos maunawaan kung bakit ako’y nagsusulat ngayon. Marahil gusto ko lamang marinig
                         muli
                         ang sarili kong tinig at boses kahit sa tinta at papel na lamang. Tahimik na naman ang
