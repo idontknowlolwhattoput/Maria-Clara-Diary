@@ -80,24 +80,24 @@ function Book() {
                     <div className="toc-section">
                         <div className="toc-title">Convent Life</div>
                         <div className="toc-entry">
-                            <span className="toc-text">1 de diciembre de 1881.....................................................10</span>
+                            <span className="toc-text">1 de diciembre de 1881........................................................9</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">2 de diciembre de 1881.....................................................11</span>
+                            <span className="toc-text">2 de diciembre de 1881.......................................................10</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">23 de diciembre de 1881...................................................12</span>
+                            <span className="toc-text">23 de diciembre de 1881.....................................................11</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Back Matter</div>
                         <div className="toc-entry">
-                            <span className="toc-text">Author’s Notes..................................................................15</span>
+                            <span className="toc-text">Author’s Notes..................................................................13</span>
                         </div>
                         <div className="toc-entry">
                             <span
-                                className="toc-text">Contributions....................................................................16</span>
+                                className="toc-text">Contributions....................................................................14</span>
                         </div>
                     </div>
                 </div>
@@ -212,44 +212,6 @@ function Book() {
                 <div className="page-content">
                     <h3 className="entry-date">28 de noviembre de 1881</h3>
                     <p className="entry-text">
-                        Kinagabihan, kasunod ng pagpasok ni Padre Damaso, napakasama ng kapalarang piniling ihayag sa
-                        akin ang gayong katotohanan. Ang aking kaluluwa ay tila napunit sa pagitan ng langit at lupa, at
-                        ang aking puso’y nanginginig sa sakit. Ang pinakamalaking kahihiyan ko ngayon ay nag-ugat mula
-                        sa taong minsan kong iginagalang bilang isang espirituwal na gabay ay siya palang aking ama. Si
-                        Padre Damaso. Paanong ang isang pari…isang lingkod ng Diyos ay makagagawa ng gayong kasalanan at
-                        dungisan ang dangal ng aking ina? <br/> <br/>
-                        Ngayon alam ko na kung bakit sinabi sa akin ni Tiya Isabel na huwag akong tumulad sa aking ina
-                        na ibinalot ang kanyang sarili sa kalungkutan, napagtanto ko na kung bakit siya nagka ganoon.
-                        Hindi ko na makilala ang aking sarili.
-                    </p>
-                    <div className="page-number">7</div>
-                </div>
-            </div>
-
-            {/* PAGE 8 */}
-            <div className="page right-page">
-                <div className="page-content">
-                    <p className="entry-text">
-                        Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang may bahid
-                        ang
-                        dugong dumadaloy sa aking mga ugat at kasama nito ang pagkawala ng aking pagkatao. <br/>
-                        <br/>
-                        Ako, anak ng kasalanan. Ano pa ang saysay ng pamumuhay kung ang aking pag-iral ay bunga ng
-                        isang
-                        paglapastangan? Mas mabuti pa sigurong mawala ako sa mundong ito kaysa magdusa sa kahihiyang
-                        ito. Hangad ko ang kapayapaan, ngunit napakalayo ng langit sa aking mga panalangin.
-                        Humihingi
-                        ako ng tawad sa Panginoon, ngunit paano ko patatawarin ang aking sarili kung pasan ko ang
-                        kasalanan ng aking ama at ang sakit na pinasan ng aking ina?
-                    </p>
-                </div>
-                <div className="page-number">8</div>
-            </div>
-
-            {/* PAGE 9 */}
-            <div className="page left-page">
-                <div className="page-content">
-                    <p className="entry-text">
                         Sa bawat araw na nagdaan, umaasa ako na siya’y babalik. Ni anino man lang niya ay hindi ko
                         nakita, o kahit man lang sana bumulong siya sa hangin upang maramdaman ko na ako’y iniisip
                         pa
@@ -261,6 +223,41 @@ function Book() {
                         akin?
                         Nais ko lamang maunawaan ang dahilan kung bakit mo ako iniwan ng ganito. Ayokong mawala ka.
                         Nakikiusap ako, bumalik ka sa akin, kahit saglit.
+                        <br/>
+                        <br/>
+                        Kinagabihan, kasunod ng pagpasok ni Padre Damaso, napakasama ng kapalarang piniling ihayag sa akin ang gayong katotohanan. Ang aking kaluluwa ay tila napunit sa pagitan ng langit at lupa, at ang aking puso’y nanginginig sa sakit. Ang pinakamalaking kahihiyan ko ngayon ay nag-ugat mula sa taong minsan kong iginagalang bilang- 
+                    </p>
+                    <div className="page-number">7</div>
+                </div>
+            </div>
+
+            {/* PAGE 8 */}
+            <div className="page right-page">
+                <div className="page-content">
+                    <p className="entry-text">
+                        -isang espirituwal na gabay ay siya palang aking ama. Si Padre Damaso. Paanong ang isang pari…isang lingkod ng Diyos ay makagagawa ng gayong kasalanan at dungisan ang dangal ng aking ina?
+                        <br/>
+                        <br/>
+                       Ngayon alam ko na kung bakit sinabi sa akin ni Tiya Isabel na huwag akong tumulad sa aking ina na ibinalot ang kanyang sarili sa kalungkutan, napagtanto ko na kung bakit siya nagka ganoon. Hindi ko na makilala ang aking sarili. Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang may bahid ang dugong dumadaloy sa aking mga ugat at kasama nito ang pagkawala ng aking pagkatao.
+                        <br/>
+                        <br/>
+                       Ako, anak ng kasalanan. Ano pa ang saysay ng pamumuhay kung ang aking pag-iral ay bunga ng isang paglapastangan? Mas mabuti pa sigurong mawala ako sa mundong ito kaysa magdusa sa kahihiyang ito. Hangad ko ang kapayapaan, ngunit napakalayo ng langit sa aking mga panalangin. Humihingi ako ng tawad sa Panginoon, ngunit paano ko patatawarin ang aking sarili kung pasan ko ang kasalanan ng aking ama at ang sakit na pinasan ng aking ina? 
+                    </p>
+                </div>
+                <div className="page-number">8</div>
+            </div>
+
+            {/* PAGE 9 */}
+            <div className="page left-page">
+                <div className="page-content">
+                    <p className="entry-text">
+                    <h3 className="entry-date">1 de diciembre de 1881</h3>
+                    <p className="entry-text">
+                        Ngayong nalaman kong nalunod daw si Crisostomo, parang tuluyang gumuho ang mundo ko. Wala na
+                        akong makakapitan kundi ang Diyos at ang mga pader ng kumbento. Kaya nang ako ay papiliin ni
+                        Padre Damaso, kasal o kamatayan, hindi ako nag-atubiling piliin ang pagtalikod sa mundo. Mas
+                        pipiliin kong mamatay bilang ako kaysa mabuhay bilang alipin ng kagustuhan ng ibang tao.
+                    </p>
                     </p>
                 </div>
                 <div className="page-number">9</div>
@@ -269,21 +266,7 @@ function Book() {
             {/* PAGE 10 */}
             <div className="page right-page">
                 <div className="page-content">
-                    <h3 className="entry-date">1 de diciembre de 1881</h3>
-                    <p className="entry-text">
-                        Ngayong nalaman kong nalunod daw si Crisostomo, parang tuluyang gumuho ang mundo ko. Wala na
-                        akong makakapitan kundi ang Diyos at ang mga pader ng kumbento. Kaya nang ako ay papiliin ni
-                        Padre Damaso, kasal o kamatayan, hindi ako nag-atubiling piliin ang pagtalikod sa mundo. Mas
-                        pipiliin kong mamatay bilang ako kaysa mabuhay bilang alipin ng kagustuhan ng ibang tao.
-                    </p>
-                </div>
-                <div className="page-number">10</div>
-            </div>
-
-            {/* PAGE 11 */}
-            <div className="page left-page">
-                <div className="page-content">
-                    <h3 className="entry-date">2 de diciembre de 1881</h3>
+                   <h3 className="entry-date">2 de diciembre de 1881</h3>
                     <p className="entry-text">
                         Ngayon, habang isinusulat ko ito sa katahimikan ng gabi, nararamdaman ko pa rin ang kirot ng
                         pagkawala at ang bigat ng takot na aking tinaglay. Ngunit sa ilalim ng lahat ng ito, may
@@ -292,11 +275,11 @@ function Book() {
                         natutong tanggapin ang sariling kapalaran, kahit sa anyo ng pagdurusa.
                     </p>
                 </div>
-                <div className="page-number">11</div>
+                <div className="page-number">10</div>
             </div>
 
-            {/* PAGE 12 */}
-            <div className="page right-page">
+            {/* PAGE 11 */}
+            <div className="page left-page">
                 <div className="page-content">
                     <h3 className="entry-date">23 de diciembre de 1881</h3>
                     <p className="entry-text">
@@ -315,20 +298,22 @@ function Book() {
                         Kung
                         ito man ang landas na itinakda sa akin, tinatanggap ko ngunit sa loob kong ito, may bahaging
                         hindi na muling dadapuan ng liwanag.
-                    </p>
-                </div>
-                <div className="page-number">12</div>
-            </div>
-
-            {/* PAGE 13 */}
-            <div className="page left-page">
-                <div className="page-content">
-                    <p className="entry-text">
-                        Pumasok ako rito upang iligtas ang sarili ko mula sa mga kasinungalingan ng mundo, sa mga
+                        <br/>
+                         Pumasok ako rito upang iligtas ang sarili ko mula sa mga kasinungalingan ng mundo, sa mga
                         matang
                         humuhusga at sa mga bulungang nagbabalatkayo. Akala ko’y sa loob ng mga pader na ito,
                         makakalimutan ko si Ibarra. Akala ko’y, ang dasal ay gamot sa lahat ng sugat. Ngunit ngayong
-                        gabi, habang hawak ko ang rosaryo, tanging ngalan pa rin niya ang sumasabay sa bawat dasal
+                        gabi,
+                    </p>
+                </div>
+                <div className="page-number">11</div>
+            </div>
+
+            {/* PAGE 12 */}
+            <div className="page right-page">
+                <div className="page-content">
+                     <p className="entry-text">
+                        habang hawak ko ang rosaryo, tanging ngalan pa rin niya ang sumasabay sa bawat dasal
                         ko. <br/> <br/>
                         Sinasabi nilang dito ko mararamdaman ang Diyos, ngunit bakit tila napakalayo niya. Minsan
                         ako’y
@@ -339,15 +324,9 @@ function Book() {
                         ang dating pananampalatayang kumupkop sa akin. Kung dati, sapat na ang isang bulong upang
                         makahanap ako ng lakas, ngayon kahit ang pinakamalalim kong dasal ay parang walang
                         pinatutunguhan.
-                    </p>
-                </div>
-                <div className="page-number">13</div>
-            </div>
+                        <br/>
+                        <br/>
 
-            {/* PAGE 14 */}
-            <div className="page right-page">
-                <div className="page-content">
-                    <p className="entry-text">
                         Kung ito na ang huli kong pagsulat, tinatanggap ko. Ako’y hindi banal, hindi rin ako masama.
                         Isa
                         lang akong babaeng nasaktan at napagod magmahal. Paalam sa mundo. Paalam sa liwanag. At kung
@@ -356,8 +335,9 @@ function Book() {
                         maaari kong magawa sa mga darating na araw.
                     </p>
                 </div>
-                <div className="page-number">14</div>
+                <div className="page-number">12</div>
             </div>
+
 
             {/* AUTHOR'S NOTES */}
             <div className="page left-page">
@@ -368,7 +348,7 @@ function Book() {
                     imagined to bring readers closer to her inner life. This project could not have been completed
                     without the collaboration and dedication of our team members.
                 </div>
-                <div className="page-number">15</div>
+                <div className="page-number">13</div>
             </div>
 
             {/* CONTRIBUTIONS PAGE */}
@@ -398,7 +378,7 @@ function Book() {
                         Zamora, Princess Jumiah M.
                     </p>
                 </div>
-                <div className="page-number">16</div>
+                <div className="page-number">14</div>
             </div>
 
             {/* BACK COVER PAGE */}
