@@ -49,54 +49,65 @@ function Book() {
                     <div className="toc-section">
                         <div className="toc-title">Reflections on Ibarra</div>
                         <div className="toc-entry">
-                            <span className="toc-text">2 de noviembre de 1881.............................................1</span>
+                            <span className="toc-text">2 de noviembre de 1881......................................................1</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Shock and Sorrow</div>
                         <div className="toc-entry">
-                            <span className="toc-text">13 de noviembre de 1881...........................................3</span>
+                            <span className="toc-text">13 de noviembre de 1881....................................................3</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Fear and Despair</div>
                         <div className="toc-entry">
-                            <span className="toc-text">20 de noviembre de 1881..........................................5</span>
+                            <span className="toc-text">20 de noviembre de 1881....................................................5</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">25 de noviembre de 1881..........................................6</span>
+                            <span className="toc-text">25 de noviembre de 1881....................................................6</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Moment of Truth</div>
                         <div className="toc-entry">
-                            <span className="toc-text">28 de noviembre de 1881..........................................7</span>
+                            <span className="toc-text">28 de noviembre de 1881....................................................7</span>
                         </div>
                     </div>
 
                     <div className="toc-section">
                         <div className="toc-title">Convent Life</div>
                         <div className="toc-entry">
-                            <span className="toc-text">1 de diciembre de 1881.............................................9</span>
+                            <span className="toc-text">1 de diciembre de 1881.....................................................10</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">2 de diciembre de 1881............................................10</span>
+                            <span className="toc-text">2 de diciembre de 1881.....................................................11</span>
                         </div>
                         <div className="toc-entry">
-                            <span className="toc-text">23 de diciembre de 1881..........................................12</span>
+                            <span className="toc-text">23 de diciembre de 1881...................................................12</span>
+                        </div>
+                    </div>
+
+                    <div className="toc-section">
+                        <div className="toc-title">Back Matter</div>
+                        <div className="toc-entry">
+                            <span className="toc-text">Author’s Notes..................................................................15</span>
+                        </div>
+                        <div className="toc-entry">
+                            <span
+                                className="toc-text">Contributions....................................................................16</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* PAGE 1 */}
-            <div className="page left-page">    
+            <div className="page left-page">
                 <div className="page-content">
                     <h3 className="entry-date">2 de noviembre de 1881</h3>
-                    <p className="entry-text text-s">
+                    <p className="entry-text">
                         Ngayong gabi ay hindi ko mapigilang balikan ang mga sandaling nagdaan mula nang dumating si
                         Crisostomo galing sa Europa. Pitong taon akong naghintay at pinanghahawakan ang bawat salita sa
                         kanyang liham na iniwan, at ngayon ay parang nananaginip ako dahil narito na siyang muli sa
@@ -111,7 +122,6 @@ function Book() {
                 <div className="page-number">1</div>
             </div>
 
-            
             {/* PAGE 2 */}
             <div className="page right-page">
                 <div className="page-content">
@@ -200,9 +210,9 @@ function Book() {
             {/* PAGE 7 */}
             <div className="page left-page">
                 <div className="page-content">
-                    <h3 className="entry-date">25 de noviembre de 1881</h3>
+                    <h3 className="entry-date">28 de noviembre de 1881</h3>
                     <p className="entry-text">
-                         Kinagabihan, kasunod ng pagpasok ni Padre Damaso, napakasama ng kapalarang piniling ihayag sa
+                        Kinagabihan, kasunod ng pagpasok ni Padre Damaso, napakasama ng kapalarang piniling ihayag sa
                         akin ang gayong katotohanan. Ang aking kaluluwa ay tila napunit sa pagitan ng langit at lupa, at
                         ang aking puso’y nanginginig sa sakit. Ang pinakamalaking kahihiyan ko ngayon ay nag-ugat mula
                         sa taong minsan kong iginagalang bilang isang espirituwal na gabay ay siya palang aking ama. Si
@@ -212,16 +222,15 @@ function Book() {
                         na ibinalot ang kanyang sarili sa kalungkutan, napagtanto ko na kung bakit siya nagka ganoon.
                         Hindi ko na makilala ang aking sarili.
                     </p>
+                    <div className="page-number">7</div>
                 </div>
-                <div className="page-number">6</div>
             </div>
 
             {/* PAGE 8 */}
             <div className="page right-page">
                 <div className="page-content">
-                    <h3 className="entry-date"></h3>
                     <p className="entry-text">
-Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang may bahid
+                        Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang may bahid
                         ang
                         dugong dumadaloy sa aking mga ugat at kasama nito ang pagkawala ng aking pagkatao. <br/>
                         <br/>
@@ -241,14 +250,17 @@ Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang
             <div className="page left-page">
                 <div className="page-content">
                     <p className="entry-text">
-                        Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang may bahid ang
-                        dugong dumadaloy sa aking mga ugat at kasama nito ang pagkawala ng aking pagkatao. <br/> <br/>
-                        Ako, anak ng kasalanan. Ano pa ang saysay ng pamumuhay kung ang aking pag-iral ay bunga ng isang
-                        paglapastangan? Mas mabuti pa sigurong mawala ako sa mundong ito kaysa magdusa sa kahihiyang
-                        ito. Hangad ko ang kapayapaan, ngunit napakalayo ng langit sa aking mga panalangin. Humihingi
-                        ako ng tawad sa Panginoon, ngunit paano ko patatawarin ang aking sarili kung pasan ko ang
-                        kasalanan ng aking ama at ang sakit na pinasan ng aking ina?
-
+                        Sa bawat araw na nagdaan, umaasa ako na siya’y babalik. Ni anino man lang niya ay hindi ko
+                        nakita, o kahit man lang sana bumulong siya sa hangin upang maramdaman ko na ako’y iniisip
+                        pa
+                        rin niya… ngunit wala. Bakit wala? Bakit mo ginagawa ito sa akin, Crisóstomo? Dahil ba hindi
+                        kita naipagtanggol? Dahil ba wala ka nang mukhang maihaharap sa aking ama? Matapos ang
+                        nangyari,
+                        hindi mo na ba nais pang bumalik kaya’t ako’y iniwan mo na lamang dito, sa mga taong walang
+                        ibang alam kundi ang makialam sa mga bagay na alam nilang hindi naman makapagpapaligaya sa
+                        akin?
+                        Nais ko lamang maunawaan ang dahilan kung bakit mo ako iniwan ng ganito. Ayokong mawala ka.
+                        Nakikiusap ako, bumalik ka sa akin, kahit saglit.
                     </p>
                 </div>
                 <div className="page-number">9</div>
@@ -274,7 +286,8 @@ Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang
                     <h3 className="entry-date">2 de diciembre de 1881</h3>
                     <p className="entry-text">
                         Ngayon, habang isinusulat ko ito sa katahimikan ng gabi, nararamdaman ko pa rin ang kirot ng
-                        pagkawala at ang bigat ng takot na aking tinaglay. Ngunit sa ilalim ng lahat ng ito, may munting
+                        pagkawala at ang bigat ng takot na aking tinaglay. Ngunit sa ilalim ng lahat ng ito, may
+                        munting
                         alab ng kalayaan, isang tahimik na paghihimagsik ng pusong nagmahal nang labis at ngayo’y
                         natutong tanggapin ang sariling kapalaran, kahit sa anyo ng pagdurusa.
                     </p>
@@ -287,13 +300,19 @@ Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang
                 <div className="page-content">
                     <h3 className="entry-date">23 de diciembre de 1881</h3>
                     <p className="entry-text">
-                        Hindi ko lubos maunawaan kung bakit ako’y nagsusulat ngayon. Marahil gusto ko lamang marinig muli
-                        ang sarili kong tinig at boses kahit sa tinta at papel na lamang. Tahimik na naman ang kumbento
-                        na tila’y pati ang hangin ay takot gumalaw. Sa bawat pintig ng puso ko’y may bigat na hindi ko
+                        Hindi ko ubos maunawaan kung bakit ako’y nagsusulat ngayon. Marahil gusto ko lamang marinig
+                        muli
+                        ang sarili kong tinig at boses kahit sa tinta at papel na lamang. Tahimik na naman ang
+                        kumbento
+                        na tila’y pati ang hangin ay takot gumalaw. Sa bawat pintig ng puso ko’y may bigat na hindi
+                        ko
                         mabitawan, marahil dahil wala na akong ibang mapagsabihan ng aking mga takot kundi ang mga
-                        pahinang ito. Ang mga pader ng kumbento’y nababalot ng lamig at nakakabinging katahimika na para
-                        bang tanikalang dahan-dahang humihigpit sa aking katawan. Nais kong maniwalang tama ang pagpasok
-                        ko rito ngunit sa bawat na dumaraan, si Crisostomo pa rin ang alaala kong hindi matakasan. Kung
+                        pahinang ito. Ang mga pader ng kumbento’y nababalot ng lamig at nakakabinging katahimika na
+                        para
+                        bang tanikalang dahan-dahang humihigpit sa aking katawan. Nais kong maniwalang tama ang
+                        pagpasok
+                        ko rito ngunit sa bawat na dumaraan, si Crisostomo pa rin ang alaala kong hindi matakasan.
+                        Kung
                         ito man ang landas na itinakda sa akin, tinatanggap ko ngunit sa loob kong ito, may bahaging
                         hindi na muling dadapuan ng liwanag.
                     </p>
@@ -305,14 +324,18 @@ Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang
             <div className="page left-page">
                 <div className="page-content">
                     <p className="entry-text">
-                        Pumasok ako rito upang iligtas ang sarili ko mula sa mga kasinungalingan ng mundo, sa mga matang
+                        Pumasok ako rito upang iligtas ang sarili ko mula sa mga kasinungalingan ng mundo, sa mga
+                        matang
                         humuhusga at sa mga bulungang nagbabalatkayo. Akala ko’y sa loob ng mga pader na ito,
                         makakalimutan ko si Ibarra. Akala ko’y, ang dasal ay gamot sa lahat ng sugat. Ngunit ngayong
                         gabi, habang hawak ko ang rosaryo, tanging ngalan pa rin niya ang sumasabay sa bawat dasal
                         ko. <br/> <br/>
-                        Sinasabi nilang dito ko mararamdaman ang Diyos, ngunit bakit tila napakalayo niya. Minsan ako’y
-                        napapaisip, baka nga hindi siya ang lumayo kundi ako. Baka ako na ang tumigil maniwala. At sa
-                        bawat sandaling ito, habang ako’y nakaluhod sa harap ng altar, ramdam kong unti-unting lumulubog
+                        Sinasabi nilang dito ko mararamdaman ang Diyos, ngunit bakit tila napakalayo niya. Minsan
+                        ako’y
+                        napapaisip, baka nga hindi siya ang lumayo kundi ako. Baka ako na ang tumigil maniwala. At
+                        sa
+                        bawat sandaling ito, habang ako’y nakaluhod sa harap ng altar, ramdam kong unti-unting
+                        lumulubog
                         ang dating pananampalatayang kumupkop sa akin. Kung dati, sapat na ang isang bulong upang
                         makahanap ako ng lakas, ngayon kahit ang pinakamalalim kong dasal ay parang walang
                         pinatutunguhan.
@@ -325,9 +348,11 @@ Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang
             <div className="page right-page">
                 <div className="page-content">
                     <p className="entry-text">
-                        Kung ito na ang huli kong pagsulat, tinatanggap ko. Ako’y hindi banal, hindi rin ako masama. Isa
+                        Kung ito na ang huli kong pagsulat, tinatanggap ko. Ako’y hindi banal, hindi rin ako masama.
+                        Isa
                         lang akong babaeng nasaktan at napagod magmahal. Paalam sa mundo. Paalam sa liwanag. At kung
-                        sakali mang naririnig ako ng Diyos kahit minsan pa, sana’y patawarin niya ako sa kung ano mang
+                        sakali mang naririnig ako ng Diyos kahit minsan pa, sana’y patawarin niya ako sa kung ano
+                        mang
                         maaari kong magawa sa mga darating na araw.
                     </p>
                 </div>
@@ -337,7 +362,7 @@ Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang
             {/* AUTHOR'S NOTES */}
             <div className="page left-page">
                 <h1 className="notes-header">AUTHOR'S NOTES</h1>
-                <div className="page-content notes-text ">
+                <div className="page-content notes-text">
                     This diary of Maria Clara is a creative reconstruction inspired by José Rizal’s Noli Me Tángere.
                     While the events and timeline follow the novel, the diary format, reflections, and dates are
                     imagined to bring readers closer to her inner life. This project could not have been completed
