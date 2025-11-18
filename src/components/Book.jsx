@@ -202,12 +202,15 @@ function Book() {
                 <div className="page-content">
                     <h3 className="entry-date">25 de noviembre de 1881</h3>
                     <p className="entry-text">
-                        Ngunit hindi sakit sa katawan ang bumabagabag sa akin, kundi sa puso. Ang paglayo ni Crisostomo
-                        ay parang pagputol ng aking hininga. Sa bawat dasal ko sa gabi, pinipilit kong tanggapin ang
-                        kapalarang iniatang sa akin, ang ipakasal kay Linares, ang kamag-anak na sinasabing magliligtas
-                        sa dangal ng aming pamilya. Ngunit paano kung hindi ko naman kailangan ng pagliligtas? Paano
-                        kung ang gusto ko ay kalayaan? Sa likod ng mga ngiting pilit, nag-aalab ang isang tinig sa aking
-                        dibdib na nagsusumigaw ng pagtutol, ngunit takot akong marinig iyon kahit ng sarili ko.
+                         Kinagabihan, kasunod ng pagpasok ni Padre Damaso, napakasama ng kapalarang piniling ihayag sa
+                        akin ang gayong katotohanan. Ang aking kaluluwa ay tila napunit sa pagitan ng langit at lupa, at
+                        ang aking puso’y nanginginig sa sakit. Ang pinakamalaking kahihiyan ko ngayon ay nag-ugat mula
+                        sa taong minsan kong iginagalang bilang isang espirituwal na gabay ay siya palang aking ama. Si
+                        Padre Damaso. Paanong ang isang pari…isang lingkod ng Diyos ay makagagawa ng gayong kasalanan at
+                        dungisan ang dangal ng aking ina? <br/> <br/>
+                        Ngayon alam ko na kung bakit sinabi sa akin ni Tiya Isabel na huwag akong tumulad sa aking ina
+                        na ibinalot ang kanyang sarili sa kalungkutan, napagtanto ko na kung bakit siya nagka ganoon.
+                        Hindi ko na makilala ang aking sarili.
                     </p>
                 </div>
                 <div className="page-number">6</div>
@@ -218,7 +221,17 @@ function Book() {
                 <div className="page-content">
                     <h3 className="entry-date"></h3>
                     <p className="entry-text">
-
+Tuwing tinititigan ko ang repleksiyon ko, nakikita ko lamang ang hiya. Para bang may bahid
+                        ang
+                        dugong dumadaloy sa aking mga ugat at kasama nito ang pagkawala ng aking pagkatao. <br/>
+                        <br/>
+                        Ako, anak ng kasalanan. Ano pa ang saysay ng pamumuhay kung ang aking pag-iral ay bunga ng
+                        isang
+                        paglapastangan? Mas mabuti pa sigurong mawala ako sa mundong ito kaysa magdusa sa kahihiyang
+                        ito. Hangad ko ang kapayapaan, ngunit napakalayo ng langit sa aking mga panalangin.
+                        Humihingi
+                        ako ng tawad sa Panginoon, ngunit paano ko patatawarin ang aking sarili kung pasan ko ang
+                        kasalanan ng aking ama at ang sakit na pinasan ng aking ina?
                     </p>
                 </div>
                 <div className="page-number">8</div>
